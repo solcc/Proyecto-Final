@@ -10,6 +10,7 @@ namespace Proyecto_Final.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder){
             modelBuilder.Entity<Cliente>().HasData(
+                
                 new Cliente {
                     idCliente=1,
                         Nombre ="Sol Milagros",
