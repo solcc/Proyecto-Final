@@ -12,5 +12,7 @@ namespace Proyecto_Final.Models
         public float Monto { get; set; }
         public Cliente Cliente { get; set; }
         public int? idCliente { get; set; }
+        public Menu Menu { get; set; }
+        public int? idMenu { get; set; }
     }
 }
