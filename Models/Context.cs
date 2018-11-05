@@ -29,5 +29,8 @@ namespace Proyecto_Final.Models
         }
 
         public DbSet<Menu> Menus{get; set;}
+        public DbSet<Cliente> Cliente { get; set; }
+
+        public DbSet<Reserva> Reservas { get; set; }
     }
 }

@@ -1,9 +1,11 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Proyecto_Final.Models
 {
     public class Reserva
     {
+         [Key]
         public int codReserva { get; set; }
         public DateTime Fecha { get; set; }
         public DateTime Hora { get; set; }
