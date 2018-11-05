@@ -13,6 +13,6 @@ namespace Proyecto_Final.Models
 
         public int Telefono { get; set; }
 
-       /*  public DateTime fechaNac { get; set; }*/
+       
     }
 }
