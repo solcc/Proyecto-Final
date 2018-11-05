@@ -11580,11 +11580,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "g:\\Proyecto-Final\\Proyecto-Final.csproj",
+      "projectUniqueName": "C:\\Users\\alumno\\Downloads\\Proyecto-Final\\Proyecto-Final.csproj",
       "projectName": "Proyecto-Final",
-      "projectPath": "g:\\Proyecto-Final\\Proyecto-Final.csproj",
+      "projectPath": "C:\\Users\\alumno\\Downloads\\Proyecto-Final\\Proyecto-Final.csproj",
       "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-      "outputPath": "g:\\Proyecto-Final\\obj\\",
+      "outputPath": "C:\\Users\\alumno\\Downloads\\Proyecto-Final\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
