@@ -12,8 +12,17 @@ namespace Proyecto_Final.Controllers
             this._context = context;
 
         }
+        public IActionResult Login()
+        {
+            ViewData["Message"] = "";
+
+            return View();
+        }
+
         public IActionResult Registro()
         {
+            ViewData["Message"] = "";
+
             return View();
         }
 
