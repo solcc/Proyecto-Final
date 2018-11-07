@@ -1,0 +1,57 @@
+<div class="row">
+<div class="col-md-3">
+</div>
+<div class="col-md-6">
+<form class="formulario-ingreso ml-auto mr-auto">
+          <div class="form-group">
+            <div class="row div-h3">
+              <div class="col-12">
+                <h3>Ingreso</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <label for="">Correo electrónico </label>
+                <input type="email" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <label for="">Contraseña </label>
+                <input type="password" name="" id="pass" class="form-control" placeholder="" aria-describedby="helpId">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <input type="checkbox" onclick="mostrarPass()" class=""> Mostrar contraseña.
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <input type="checkbox" class=""> Recordar contraseña.
+              </div>
+            </div>
+            <div class="row div-btn-registrar">
+              <div class="col-12">
+                <button type="submit" class="btn btn-registrar">Iniciar</button>
+              </div>
+            </div>
+          </div>    
+        </form>
+</div>
+<div class="col-md-3">
+
+</div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+            function mostrarPass() {
+                var x = document.getElementById("pass");
+                if (x.type === "password") {
+                    x.type = "text";
+                } else {
+                    x.type = "password";
+                }
+            }
+    </script>

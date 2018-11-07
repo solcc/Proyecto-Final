@@ -1,17 +1,60 @@
 ﻿@{
     ViewData["Title"] = "Contacto";
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<div class="row">
+    <div class="formulario-contacto col-md-6">
+        <h1 class="display-5 mt-5 text-center">Formulario de Contacto</h1>
+        <div class="form-group">
+            <div class="row">
+                <div class="h3 font-weight-normal col-md-4">
+                    Nombre:
+                </div>
+                <div class="col-md-7">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="h3 font-weight-normal col-md-4">
+                    E-mail:
+                </div>
+                <div class="col-md-7">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="h3 font-weight-normal col-md-4">
+                    Asunto:
+                </div>
+                <div class="col-md-7">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            
+        </div>
+    </div>
 
-<address>
-    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+    <div class="formulario-contacto-mensaje col-md-6">
+        
+        <div class="form-group">
+            <div class="h5 mt-4 align-bottom">Mensaje:</div>
+            <div class="row">
+                <div class="col-md-12">
+                    <textarea class="form-control col-md-10 mt-3" rows="8" cols="50"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            <div class="row">
+                <button type="submit" class="btn btn-contacto-enviar pt-3 pb-3 pl-5 pr-5 ml-auto mr-auto">Enviar</button>
+            </div>    
+        </div>
+    </div>
+    <div class="col-md-6">
+    </div>
+</div>
