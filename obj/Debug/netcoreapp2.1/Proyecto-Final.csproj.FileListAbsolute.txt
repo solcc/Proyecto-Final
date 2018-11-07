@@ -93,3 +93,4 @@ C:\Users\alumno\Downloads\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.
 C:\Users\alumno\Downloads\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Home\Inicio.g.cshtml.cs
 C:\Users\alumno\Downloads\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contacto.g.cshtml.cs
 C:\Users\alumno\Downloads\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Home\Nosotros.g.cshtml.cs
+C:\Users\alumno\Downloads\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Cuenta\Registro.g.cshtml.cs
