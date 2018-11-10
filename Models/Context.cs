@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Proyecto_Final.Models.Entidades;
 
 namespace Proyecto_Final.Models
 {

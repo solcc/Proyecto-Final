@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Proyecto_Final.Models;
+using Proyecto_Final.Models.Entidades;
+using Proyecto_Final.Models.ViewModels;
 
 namespace Proyecto_Final.Controllers
 {
@@ -14,11 +16,25 @@ namespace Proyecto_Final.Controllers
         }
         public IActionResult Login()
         {
-            ViewData["Message"] = "";
+            
 
             return View();
         }
 
+        [HttpPost]
+        public ActionResult Validacion(Sesion sesion)
+        {
+            if (ModelState.IsValid)
+            {
+                if (sesion.Correo=="sol.choque@usil.pe"&&sesion.Password=="123456")
+                {
+                    TempData["validacion"] = "valida";
+                    return RedirectToAction("Inicio", "Home");
+                }
+                ModelState.AddModelError("error","Error en los datos");
+            }
+            return View("Login", sesion);
+        }
         public IActionResult Registro()
         {
             ViewData["Message"] = "";

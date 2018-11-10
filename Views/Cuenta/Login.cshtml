@@ -1,8 +1,14 @@
+@model Proyecto_Final.Models.ViewModels.Sesion
+@{
+    ViewBag.Title = "Login";
+}
+
+@Html.ValidationSummary()
 <div class="row">
 <div class="col-md-3">
 </div>
 <div class="col-md-6">
-<form class="formulario-ingreso ml-auto mr-auto">
+<form action="~/Cuenta/validacion" method="post" class="formulario-ingreso ml-auto mr-auto">
           <div class="form-group">
             <div class="row div-h3">
               <div class="col-12">
@@ -11,14 +17,15 @@
             </div>
             <div class="row">
               <div class="col-12">
-                <label for="">Correo electrónico </label>
-                <input type="email" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                <label >Correo electrónico </label>
+                @Html.TextBoxFor(m=>m.Correo, new { @class = "form-control", type = "email" })
               </div>
             </div>
             <div class="row">
               <div class="col-12">
                 <label for="">Contraseña </label>
-                <input type="password" name="" id="pass" class="form-control" placeholder="" aria-describedby="helpId">
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                
               </div>
             </div>
             <div class="row">
@@ -32,7 +39,7 @@
               </div>
             </div>
             <div class="row div-btn-registrar">
-              <div class="col-12">
+              <div class="col-12 form-group">
                 <button type="submit" class="btn btn-registrar">Iniciar</button>
               </div>
             </div>

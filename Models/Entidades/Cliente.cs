@@ -1,8 +1,7 @@
-using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Proyecto_Final.Models
+namespace Proyecto_Final.Models.Entidades
 {
     public class Cliente
     {
@@ -16,7 +15,5 @@ namespace Proyecto_Final.Models
         public int Telefono { get; set; }
 
         public List<Reserva> Reservas { get; set; }
-
-       
     }
 }
