@@ -55,7 +55,7 @@ using Proyecto_Final.Models;
             WriteLiteral("<div class=\"row\">\r\n<div class=\"col-md-2\"></div>\r\n<div class=\"col-md-8\">\r\n");
             EndContext();
             BeginContext(73, 2106, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c95c3c964f5549e599c117ae7faf9d1c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e66b92110b9d43389bd20d38638ac8d4", async() => {
                 BeginContext(107, 2065, true);
                 WriteLiteral(@"
           <div class=""form-group"">
