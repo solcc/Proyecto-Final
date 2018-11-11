@@ -4,8 +4,8 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Proyecto_Final.Models.Entidades;
 using Proyecto_Final.Models;
+using Proyecto_Final.Models.Entidades;
 
 namespace Proyecto_Final.Controllers
 {
@@ -52,12 +52,7 @@ namespace Proyecto_Final.Controllers
             ViewData["Contacto"] = contacto;
             return View();
         }
-        public IActionResult Reserva()
-        {
-            ViewData["Message"] = ".";
-
-            return View();
-        }
+        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

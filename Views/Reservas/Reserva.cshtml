@@ -1,4 +1,4 @@
-@model Proyecto_Final.Models.Entidades.Reserva
+@model Proyecto_Final.Models.ViewModels.Reserva
 
 @{
     ViewData["Title"] = "Reserva";
@@ -12,7 +12,7 @@
             RESERVA
         </div>
         
-
+</div>
 <form asp-action="~/reservas/ProcesarReserva" method="post">
 
 <div class="row">
@@ -51,7 +51,7 @@
                     Fecha:
                 </div>
                 <div class="col-md-7">
-                     @Html.TextBoxFor(m=>m.numPersonas , new { @class = "form-control" , @type = "date" })
+                     @Html.TextBoxFor(m=>m.Fecha , new { @class = "form-control" , @type = "date" })
                 </div>
             </div>
             <div class="row mt-4">

@@ -2,7 +2,7 @@
 @{
     ViewBag.Title = "Contacto";
 }
-
+@Html.ValidationSummary()
 <form method="post" action="~/home/procesarcontacto">
 <div class="row">
     <div class="formulario-contacto col-md-6">
@@ -14,7 +14,7 @@
                     Nombre:
                 </div>
                 <div class="col-md-7">
-                    <input type="text" class="form-control" name="nombre">
+                    @Html.TextBoxFor(m=>m.Nombre, new { @class = "form-control" })
                 </div>
             </div>
             <div class="row mt-4">
@@ -22,7 +22,7 @@
                     E-mail:
                 </div>
                 <div class="col-md-7">
-                    <input type="text" class="form-control" name="correo">
+                     @Html.TextBoxFor(m=>m.Correo, new { @class = "form-control", type = "email" })
                 </div>
             </div>
             <div class="row mt-4">
@@ -30,7 +30,7 @@
                     Asunto:
                 </div>
                 <div class="col-md-7">
-                    <input type="text" class="form-control" name="asunto">
+                    @Html.TextBoxFor(m=>m.Asunto, new { @class = "form-control" })
                 </div>
             </div>
             
@@ -44,7 +44,7 @@
             <div class="h5 mt-4 align-bottom">Mensaje:</div>
             <div class="row">
                 <div class="col-md-12">
-                    <textarea class="form-control col-md-10 mt-3" name="mensaje" rows="8" cols="50"></textarea>
+                     @Html.TextBoxFor(m=>m.Mensaje, new { @class = "form-control", type = "textarea" })
                 </div>
             </div>
         </div>
