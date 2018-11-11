@@ -4,14 +4,10 @@
     ViewData["Title"] = "Reserva";
 }
 
-@Html.ValidationSummary()
-
 <div class="bg-title bg-reserva">
-    
         <div class="title">
             RESERVA
         </div>
-        
 </div>
 <form asp-action="~/reservas/ProcesarReserva" method="post">
 
@@ -27,23 +23,27 @@
                      @Html.TextBoxFor(m=>m.Usuario.Nombre, new { @class = "form-control" })
                 </div>
             </div>
-            <div class="h5 font-weight-normal col-md-4">
+            <div class="row mt-4">
+                <div class="h5 font-weight-normal col-md-4">
                     Apellido:
                 </div>
                 <div class="col-md-7">
                      @Html.TextBoxFor(m=>m.Usuario.Apellido, new { @class = "form-control" })
                 </div>
+            </div>
             <div class="row mt-4">
                 <div class="h5 font-weight-normal col-md-4">
                     Numero de personas: 
                 </div>
                 <div class="col-md-7">
-                  <div class="col-md-7">
                     @Html.TextBoxFor(m=>m.numPersonas , new { @class = "form-control" })
                 </div>
-                <div class="h15 font-weight-normal col-md-20">
+                
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4"></div>
+                <div class="col-md-7">
                     <p class="text-secondary">Para hacer una reserva de más de 08 personas, escribe a restaurante@maribel.com.pe</p> 
-                </div>
                 </div>
             </div>
             <div class="row mt-4">
@@ -92,7 +92,7 @@
             </div>
         </div>
     </div>
-    
+    @Html.ValidationSummary()
 </div>
 <div class="row">
     <div class="col-md-6">
