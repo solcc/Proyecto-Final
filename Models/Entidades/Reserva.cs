@@ -14,5 +14,9 @@ namespace Proyecto_Final.Models.Entidades
         public int? idUsuario { get; set; }
         public Menu Menu { get; set; }
         public int? idMenu { get; set; }
+         public int numPersonas { get; set; }
+
+
+
     }
 }

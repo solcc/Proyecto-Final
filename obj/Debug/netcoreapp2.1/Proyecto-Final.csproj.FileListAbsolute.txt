@@ -130,3 +130,41 @@ E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final\obj
 E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.csproj.CopyComplete
 E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Home\Confirmacion.g.cshtml.cs
 E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Cuenta\RegistroConfirmacion.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.csprojAssemblyReference.cache
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.csproj.CoreCompileInputs.cache
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.RazorAssemblyInfo.cache
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.RazorAssemblyInfo.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.AssemblyInfoInputs.cache
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.AssemblyInfo.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.TagHelpers.input.cache
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.TagHelpers.output.cache
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.RazorCoreGenerate.cache
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Cuenta\Login.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Cuenta\Registro.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Cuenta\RegistroConfirmacion.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Home\Confirmacion.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contacto.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Home\Inicio.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Home\Nosotros.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Home\Reserva.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.RazorTargetAssemblyInfo.cache
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.RazorTargetAssemblyInfo.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.dll
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.pdb
+C:\Users\YANELI\Desktop\Proyecto-Final\bin\Debug\netcoreapp2.1\Proyecto-Final.deps.json
+C:\Users\YANELI\Desktop\Proyecto-Final\bin\Debug\netcoreapp2.1\Proyecto-Final.runtimeconfig.json
+C:\Users\YANELI\Desktop\Proyecto-Final\bin\Debug\netcoreapp2.1\Proyecto-Final.runtimeconfig.dev.json
+C:\Users\YANELI\Desktop\Proyecto-Final\bin\Debug\netcoreapp2.1\Proyecto-Final.dll
+C:\Users\YANELI\Desktop\Proyecto-Final\bin\Debug\netcoreapp2.1\Proyecto-Final.pdb
+C:\Users\YANELI\Desktop\Proyecto-Final\bin\Debug\netcoreapp2.1\Proyecto-Final.Views.dll
+C:\Users\YANELI\Desktop\Proyecto-Final\bin\Debug\netcoreapp2.1\Proyecto-Final.Views.pdb
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.Views.pdb
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.csproj.CopyComplete
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Reservas\Reserva.g.cshtml.cs
+C:\Users\YANELI\Desktop\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Reservas\ReservaConfirmacion.g.cshtml.cs

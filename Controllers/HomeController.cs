@@ -35,6 +35,7 @@ namespace Proyecto_Final.Controllers
         public ActionResult ProcesarContacto(Contacto contacto)
         {
             TempData["contacto"] = contacto;
+            
             if (ModelState.IsValid)
             {
                 return RedirectToAction("Confirmacion");

@@ -19,7 +19,6 @@ namespace Proyecto_Final.Controllers
         public IActionResult Login()
         {
             
-
             return View();
         }
 
@@ -27,6 +26,7 @@ namespace Proyecto_Final.Controllers
         public ActionResult Validacion(Sesion sesion)
         {
             if (ModelState.IsValid){
+
             var user=_context.Usuario.FirstOrDefault(u=>u.Correo==sesion.Correo
             &&u.Password==sesion.Password);
                 if(user!=null){
@@ -36,14 +36,12 @@ namespace Proyecto_Final.Controllers
                 ModelState.AddModelError("error","Error en los datos");
             }
             return View("Login", sesion);
-
             
             
         }
         public IActionResult Registro()
         {
            
-
             return View();
         }
 

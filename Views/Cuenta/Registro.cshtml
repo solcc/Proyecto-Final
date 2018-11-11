@@ -3,6 +3,7 @@
     ViewBag.Title = "Registro";
 }
 @Html.ValidationSummary()
+
 <div class="row">
 <div class="col-md-2"></div>
 <div class="col-md-8">
@@ -24,7 +25,7 @@
             <div class="row">
               <div class="col-12">
                 <label for="">Apellidos *</label>
-                 @Html.TextBoxFor(m=>m.Apellidos, new { @class = "form-control" })
+                 @Html.TextBoxFor(m=>m.Apellido, new { @class = "form-control" })
               </div>
             </div>
             <div class="row">

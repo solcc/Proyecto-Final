@@ -10,31 +10,32 @@ namespace Proyecto_Final.Controllers
         public ReservasController(Context context)
         {
             this._context = context;
-
         }
-        public IActionResult RegistroReserva()
+        public IActionResult Reserva()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult RegistroReserva(Usuario c)
+
+         public IActionResult ProcesarReserva(Reserva res)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(c);
+                _context.Add(res);
                 _context.SaveChanges();
-                
 
-                return RedirectToAction("RegistroReservaConfirmacion");
+                return RedirectToAction("ReservaConfirmacion");
             }
 
-            return View(c);
+            return View(res);
         }
-
-        public IActionResult RegistroReservaConfirmacion()
+        
+        public IActionResult ReservaConfirmacion()
         {
             return View();
         }
+
+       
     }
 }
