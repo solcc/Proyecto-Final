@@ -18,7 +18,7 @@ namespace Proyecto_Final.Controllers
         }
 
         [HttpPost]
-        public IActionResult RegistroReserva(Cliente c)
+        public IActionResult RegistroReserva(Usuario c)
         {
             if (ModelState.IsValid)
             {

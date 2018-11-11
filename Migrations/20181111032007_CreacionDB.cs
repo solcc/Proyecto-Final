@@ -9,21 +9,6 @@ namespace ProyectoFinal.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Cliente",
-                columns: table => new
-                {
-                    idCliente = table.Column<int>(nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Nombre = table.Column<string>(nullable: true),
-                    Apellido = table.Column<string>(nullable: true),
-                    Telefono = table.Column<int>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Cliente", x => x.idCliente);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Menus",
                 columns: table => new
                 {
@@ -38,6 +23,23 @@ namespace ProyectoFinal.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Usuario",
+                columns: table => new
+                {
+                    idUsuario = table.Column<int>(nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Nombre = table.Column<string>(nullable: true),
+                    Correo = table.Column<string>(nullable: false),
+                    Password = table.Column<string>(nullable: false),
+                    Apellido = table.Column<string>(nullable: true),
+                    Telefono = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Usuario", x => x.idUsuario);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Reservas",
                 columns: table => new
                 {
@@ -46,45 +48,45 @@ namespace ProyectoFinal.Migrations
                     Fecha = table.Column<DateTime>(nullable: false),
                     Hora = table.Column<DateTime>(nullable: false),
                     Monto = table.Column<float>(nullable: false),
-                    idCliente = table.Column<int>(nullable: true),
-                    MenuidMenu = table.Column<int>(nullable: true)
+                    idUsuario = table.Column<int>(nullable: true),
+                    idMenu = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Reservas", x => x.codReserva);
                     table.ForeignKey(
-                        name: "FK_Reservas_Menus_MenuidMenu",
-                        column: x => x.MenuidMenu,
+                        name: "FK_Reservas_Menus_idMenu",
+                        column: x => x.idMenu,
                         principalTable: "Menus",
                         principalColumn: "idMenu",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Reservas_Cliente_idCliente",
-                        column: x => x.idCliente,
-                        principalTable: "Cliente",
-                        principalColumn: "idCliente",
+                        name: "FK_Reservas_Usuario_idUsuario",
+                        column: x => x.idUsuario,
+                        principalTable: "Usuario",
+                        principalColumn: "idUsuario",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.InsertData(
-                table: "Cliente",
-                columns: new[] { "idCliente", "Apellido", "Nombre", "Telefono" },
-                values: new object[] { 1, "Choque Chara", "Sol Milagros", 1256456778 });
+                table: "Usuario",
+                columns: new[] { "idUsuario", "Apellido", "Correo", "Nombre", "Password", "Telefono" },
+                values: new object[] { 1, "Choque Chara", "sol.choque@usil.pe", "Sol Milagros", "12345", 1256456778 });
 
             migrationBuilder.InsertData(
-                table: "Cliente",
-                columns: new[] { "idCliente", "Apellido", "Nombre", "Telefono" },
-                values: new object[] { 2, "Alayo Cuje", "Yaneli ", 456845543 });
+                table: "Usuario",
+                columns: new[] { "idUsuario", "Apellido", "Correo", "Nombre", "Password", "Telefono" },
+                values: new object[] { 2, "Alayo Cuje", "yaneli.alayo@usil.pe", "Yaneli ", "678910", 456845543 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Reservas_MenuidMenu",
+                name: "IX_Reservas_idMenu",
                 table: "Reservas",
-                column: "MenuidMenu");
+                column: "idMenu");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Reservas_idCliente",
+                name: "IX_Reservas_idUsuario",
                 table: "Reservas",
-                column: "idCliente");
+                column: "idUsuario");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -96,7 +98,7 @@ namespace ProyectoFinal.Migrations
                 name: "Menus");
 
             migrationBuilder.DropTable(
-                name: "Cliente");
+                name: "Usuario");
         }
     }
 }

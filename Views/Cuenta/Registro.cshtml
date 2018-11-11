@@ -1,7 +1,12 @@
+@model Proyecto_Final.Models.ViewModels.User
+@{
+    ViewBag.Title = "Registro";
+}
+@Html.ValidationSummary()
 <div class="row">
 <div class="col-md-2"></div>
 <div class="col-md-8">
-<form class="formulario-registro">
+<form method="post" action="~/cuenta/ProcesarRegistro" class="formulario-registro">
           <div class="form-group">
             <div class="row div-h3">
               <div class="col-12">
@@ -11,31 +16,33 @@
             <div class="row">
               <div class="col-12">
                 <label for="">Nombres *</label>
-                <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                @Html.TextBoxFor(m=>m.Nombre, new { @class = "form-control" })
               </div>
             </div>
+            
+            
             <div class="row">
               <div class="col-12">
                 <label for="">Apellidos *</label>
-                <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                 @Html.TextBoxFor(m=>m.Apellidos, new { @class = "form-control" })
               </div>
             </div>
             <div class="row">
               <div class="col-12">
                 <label for="">Correo electrónico *</label>
-                <input type="email" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                @Html.TextBoxFor(m=>m.Correo, new { @class = "form-control", type = "email" })
               </div>
             </div>
             <div class="row">
               <div class="col-12">
                 <label for="">Teléfono *</label>
-                <input type="textw" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
-              </div>
+                @Html.TextBoxFor(m=>m.Telefono, new { @class = "form-control" })
+                
             </div>
             <div class="row">
               <div class="col-12">
                 <label for="">Contraseña *</label>
-                <input type="password" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
               </div>
             </div>
             <div class="row">

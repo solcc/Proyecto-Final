@@ -10,27 +10,32 @@ namespace Proyecto_Final.Models
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder){
-            modelBuilder.Entity<Cliente>().HasData(
+            modelBuilder.Entity<Usuario>().HasData(
                 
-                new Cliente {
-                    idCliente=1,
+                new Usuario {
+                    idUsuario=1,
                         Nombre ="Sol Milagros",
+                        Correo="sol.choque@usil.pe",
+                        Password="12345",
                         Apellido="Choque Chara",
-                        Telefono=1256456778,
+                        Telefono=1256456778
+                        
                      
                 },
-                new Cliente {
-                     idCliente=2,
+                new Usuario {
+                     idUsuario=2,
                     Nombre ="Yaneli ",
+                     Correo="yaneli.alayo@usil.pe",
+                        Password="678910",
                         Apellido="Alayo Cuje",
-                        Telefono=456845543,
+                        Telefono=456845543
                       
                 }
             );
         }
 
         public DbSet<Menu> Menus{get; set;}
-        public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
 
         public DbSet<Reserva> Reservas { get; set; }
     }

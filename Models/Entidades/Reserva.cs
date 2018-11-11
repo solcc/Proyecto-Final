@@ -10,8 +10,8 @@ namespace Proyecto_Final.Models.Entidades
         public DateTime Fecha { get; set; }
         public DateTime Hora { get; set; }
         public float Monto { get; set; }
-        public Cliente Cliente { get; set; }
-        public int? idCliente { get; set; }
+        public Usuario Usuario { get; set; }
+        public int? idUsuario { get; set; }
         public Menu Menu { get; set; }
         public int? idMenu { get; set; }
     }

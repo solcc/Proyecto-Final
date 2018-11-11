@@ -129,3 +129,4 @@ E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final\bin
 E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.Views.pdb
 E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.csproj.CopyComplete
 E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Home\Confirmacion.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final\obj\Debug\netcoreapp2.1\Razor\Views\Cuenta\RegistroConfirmacion.g.cshtml.cs
