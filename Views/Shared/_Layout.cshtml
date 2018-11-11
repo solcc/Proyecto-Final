@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/estilo.css" />
-    <link href="https://fonts.googleapis.com/css?family=Fjalla pl-5 pr-4 One" rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="~/images/logo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Acme|Pacifico|Signika" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -72,6 +74,44 @@
         @RenderBody()
         
     </div>
+    <footer class="page-footer pt-4 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Información</h5>
+                    <ul>
+                        <li>- Historia</li>
+                        <li>- Reservas</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Atención al Cliente</h5>
+                    <ul>
+                        <li>- Contacto</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Mi cuenta</h5>
+                    <ul>
+                        <li>- Mis Órdenes</li>
+                        <li>- Mis Direcciones</li>
+                        <li>- Mi Información</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Síguenos</h5>
+                    <div class="social_block">
+                        <ul class="lista-siguenos">
+                            <li class="facebook"><a href="" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                            <li class="twitter"><a href="" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                            <li class="twitter"><a href="" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                            <li class="youtube"><a href="" target="_blank"><i class="fab fa-youtube-square fa-2x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
