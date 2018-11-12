@@ -17,7 +17,6 @@ namespace Proyecto_Final.Models.ViewModels
         [Required]
         public string Password { get; set; }
         
-
         public int Telefono { get; set; }
     }
 }

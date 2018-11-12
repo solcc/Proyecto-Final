@@ -4,6 +4,7 @@
     ViewData["Title"] = "Reserva";
 }
 
+
 <div class="bg-title bg-reserva">
         <div class="title">
             RESERVA
@@ -53,31 +54,7 @@
                 <div class="col-md-7">
                      @Html.TextBoxFor(m=>m.Fecha , new { @class = "form-control" , @type = "date" })
                 </div>
-            </div>
-            <div class="row mt-4">
-                <div class="h5 font-weight-normal col-md-4">
-                    Almuerzo:
-                </div>
-                <div class="col-md-7">
-                    <label class="switch">        
-                     @Html.TextBoxFor(m=>m.Nombre , new { @class = "form-control form-control-sm col-4" , @type = "checkbox", @id ="pass" })     
-                      <span class="slider round"></span>
-                    </label>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="h5 font-weight-normal col-md-4">
-                    Cena:
-                </div>
-                <div class="col-md-7">
-                    <label class="switch">
-                      <input type="checkbox" name="" id="pass" class="form-control form-control-sm col-4" placeholder="" aria-describedby="helpId">
-                       @Html.TextBoxFor(m=>m.Nombre, new { @class = "form-control form-control-sm col-4" , @type = "checkbox", @id ="pass" })  
-                      <span class="slider round"></span>
-                    </label>
-                </div>
-            </div>
-            
+            </div>          
         </div>
     </div>
 

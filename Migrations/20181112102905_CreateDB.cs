@@ -4,10 +4,26 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ProyectoFinal.Migrations
 {
-    public partial class CreacionDB : Migration
+    public partial class CreateDB : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "Contactos",
+                columns: table => new
+                {
+                    idContacto = table.Column<int>(nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Nombre = table.Column<string>(nullable: false),
+                    Correo = table.Column<string>(nullable: false),
+                    Asunto = table.Column<string>(nullable: false),
+                    Mensaje = table.Column<string>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Contactos", x => x.idContacto);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Menus",
                 columns: table => new
@@ -49,7 +65,8 @@ namespace ProyectoFinal.Migrations
                     Hora = table.Column<DateTime>(nullable: false),
                     Monto = table.Column<float>(nullable: false),
                     idUsuario = table.Column<int>(nullable: true),
-                    idMenu = table.Column<int>(nullable: true)
+                    idMenu = table.Column<int>(nullable: true),
+                    numPersonas = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -91,6 +108,9 @@ namespace ProyectoFinal.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Contactos");
+
             migrationBuilder.DropTable(
                 name: "Reservas");
 

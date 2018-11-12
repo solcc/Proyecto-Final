@@ -9,8 +9,8 @@ using Proyecto_Final.Models;
 namespace ProyectoFinal.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20181111032007_CreacionDB")]
-    partial class CreacionDB
+    [Migration("20181112102905_CreateDB")]
+    partial class CreateDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -18,6 +18,28 @@ namespace ProyectoFinal.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.1.2-rtm-30932")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
+
+            modelBuilder.Entity("Proyecto_Final.Models.Entidades.Contacto", b =>
+                {
+                    b.Property<int>("idContacto")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Asunto")
+                        .IsRequired();
+
+                    b.Property<string>("Correo")
+                        .IsRequired();
+
+                    b.Property<string>("Mensaje")
+                        .IsRequired();
+
+                    b.Property<string>("Nombre")
+                        .IsRequired();
+
+                    b.HasKey("idContacto");
+
+                    b.ToTable("Contactos");
+                });
 
             modelBuilder.Entity("Proyecto_Final.Models.Entidades.Menu", b =>
                 {
@@ -47,6 +69,8 @@ namespace ProyectoFinal.Migrations
                     b.Property<int?>("idMenu");
 
                     b.Property<int?>("idUsuario");
+
+                    b.Property<int>("numPersonas");
 
                     b.HasKey("codReserva");
 
