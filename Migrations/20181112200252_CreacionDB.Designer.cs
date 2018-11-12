@@ -9,8 +9,8 @@ using Proyecto_Final.Models;
 namespace ProyectoFinal.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20181112102905_CreateDB")]
-    partial class CreateDB
+    [Migration("20181112200252_CreacionDB")]
+    partial class CreacionDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -41,20 +41,6 @@ namespace ProyectoFinal.Migrations
                     b.ToTable("Contactos");
                 });
 
-            modelBuilder.Entity("Proyecto_Final.Models.Entidades.Menu", b =>
-                {
-                    b.Property<int>("idMenu")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("Nombre");
-
-                    b.Property<float>("Precio");
-
-                    b.HasKey("idMenu");
-
-                    b.ToTable("Menus");
-                });
-
             modelBuilder.Entity("Proyecto_Final.Models.Entidades.Reserva", b =>
                 {
                     b.Property<int>("codReserva")
@@ -64,19 +50,13 @@ namespace ProyectoFinal.Migrations
 
                     b.Property<DateTime>("Hora");
 
-                    b.Property<float>("Monto");
-
-                    b.Property<int?>("idMenu");
-
-                    b.Property<int?>("idUsuario");
+                    b.Property<int?>("UsuarioidUsuario");
 
                     b.Property<int>("numPersonas");
 
                     b.HasKey("codReserva");
 
-                    b.HasIndex("idMenu");
-
-                    b.HasIndex("idUsuario");
+                    b.HasIndex("UsuarioidUsuario");
 
                     b.ToTable("Reservas");
                 });
@@ -110,13 +90,9 @@ namespace ProyectoFinal.Migrations
 
             modelBuilder.Entity("Proyecto_Final.Models.Entidades.Reserva", b =>
                 {
-                    b.HasOne("Proyecto_Final.Models.Entidades.Menu", "Menu")
-                        .WithMany("Reserva")
-                        .HasForeignKey("idMenu");
-
-                    b.HasOne("Proyecto_Final.Models.Entidades.Usuario", "Usuario")
+                    b.HasOne("Proyecto_Final.Models.Entidades.Usuario")
                         .WithMany("Reservas")
-                        .HasForeignKey("idUsuario");
+                        .HasForeignKey("UsuarioidUsuario");
                 });
 #pragma warning restore 612, 618
         }

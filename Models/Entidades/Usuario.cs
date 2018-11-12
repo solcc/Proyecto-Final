@@ -19,7 +19,5 @@ namespace Proyecto_Final.Models.Entidades
         public string Apellido { get; set; }
 
         public int Telefono { get; set; }
-
-        public List<Reserva> Reservas { get; set; }
     }
 }

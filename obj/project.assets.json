@@ -11574,23 +11574,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\YANELI\\.nuget\\packages\\": {},
+    "C:\\Users\\Milagros\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\Proyecto-Final\\Proyecto-Final.csproj",
+      "projectUniqueName": "e:\\USIL\\CICLO IV\\PROGRAMACIÓN MULTIPLATAFORMA\\Proyecto final\\Proyecto-Final\\Proyecto-Final.csproj",
       "projectName": "Proyecto-Final",
-      "projectPath": "e:\\Proyecto-Final\\Proyecto-Final.csproj",
-      "packagesPath": "C:\\Users\\YANELI\\.nuget\\packages\\",
-      "outputPath": "e:\\Proyecto-Final\\obj\\",
+      "projectPath": "e:\\USIL\\CICLO IV\\PROGRAMACIÓN MULTIPLATAFORMA\\Proyecto final\\Proyecto-Final\\Proyecto-Final.csproj",
+      "packagesPath": "C:\\Users\\Milagros\\.nuget\\packages\\",
+      "outputPath": "e:\\USIL\\CICLO IV\\PROGRAMACIÓN MULTIPLATAFORMA\\Proyecto final\\Proyecto-Final\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\YANELI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Milagros\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
