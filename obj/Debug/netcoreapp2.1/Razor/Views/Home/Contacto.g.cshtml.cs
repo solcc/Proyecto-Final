@@ -63,7 +63,7 @@ using Proyecto_Final.Models;
             WriteLiteral("\r\n<div class=\"bg-title bg-contacto\">\r\n        <div class=\"title\">\r\n            CONTACTO\r\n        </div>\r\n</div>\r\n\r\n");
             EndContext();
             BeginContext(205, 2066, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c76432ab56b3487cbd0524065ee66c9d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6af0ae4bd6954e6c8a0fb8f6a5258f5b", async() => {
                 BeginContext(258, 399, true);
                 WriteLiteral(@"
 <div class=""row"">

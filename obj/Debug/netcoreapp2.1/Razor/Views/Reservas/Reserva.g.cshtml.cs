@@ -70,7 +70,7 @@ using Proyecto_Final.Models;
             WriteLiteral("\r\n\r\n<div class=\"bg-title bg-reserva\">\r\n        <div class=\"title\">\r\n            RESERVA\r\n        </div>\r\n</div>\r\n");
             EndContext();
             BeginContext(207, 2692, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "79750a41ffe34dd1915c217af2280492", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70c253939b914a47b39728f28ae28da3", async() => {
                 BeginContext(263, 372, true);
                 WriteLiteral(@"
 
@@ -169,7 +169,7 @@ using Proyecto_Final.Models;
                     <div class=""col-md-10 mt-3"" rows=""8"" cols=""50"">");
                 EndContext();
                 BeginContext(2361, 75, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "776a3510823d4f02bd4f8a44c95d1b52", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "53fc4530ee484bb485313b8d37e515eb", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
