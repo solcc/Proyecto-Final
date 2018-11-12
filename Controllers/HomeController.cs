@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using Proyecto_Final.Models;
 using Proyecto_Final.Models.Entidades;
 
@@ -44,6 +45,8 @@ namespace Proyecto_Final.Controllers
                 _context.Add(contacto);
                 _context.SaveChanges();
 
+                TempData["contacto"] = JsonConvert.SerializeObject(contacto);
+
                 return RedirectToAction("Confirmacion");
             }
 
@@ -51,7 +54,8 @@ namespace Proyecto_Final.Controllers
         }
         public ActionResult Confirmacion()
         {
-            Contacto contacto = TempData["contacto"] as Contacto;
+            var x = TempData["contacto"].ToString();
+            Contacto contacto = JsonConvert.DeserializeObject(x) as Contacto;
            
             ViewData["Contacto"] = contacto;
             return View();

@@ -3,7 +3,13 @@
 
 @{
     ViewBag.Title = "Confirmacion";
+    var contacto = (Proyecto_Final.Models.Entidades.Contacto)ViewData["Contacto"];
 }
 
-<h2>Confirmacion</h2>
-<p>Hemos recibido su mensaje. Recibira la respuesta a la brevedad. </br>Gracias .</p>
+<div class="bg-title bg-contacto">
+        <div class="title">
+            CONFIRMACION
+        </div>
+</div>
+
+<p class="display-4 text-center mt-4">@contacto.Nombre Hemos recibido su mensaje. Recibira la respuesta a la brevedad. </br>Gracias .</p>
