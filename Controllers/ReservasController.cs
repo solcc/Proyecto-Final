@@ -28,7 +28,7 @@ namespace Proyecto_Final.Controllers
                 return RedirectToAction("ReservaConfirmacion");
             }
 
-            return View(res);
+            return View("Reserva");
         }
         
         public IActionResult ReservaConfirmacion()

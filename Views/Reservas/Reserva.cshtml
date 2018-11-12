@@ -9,7 +9,7 @@
             RESERVA
         </div>
 </div>
-<form asp-action="~/reservas/ProcesarReserva" method="post">
+<form action="~/reservas/ProcesarReserva" method="post">
 
 <div class="row">
     <div class="formulario-reserva col-md-6">
@@ -20,7 +20,7 @@
                     Nombre:
                 </div>
                 <div class="col-md-7">
-                     @Html.TextBoxFor(m=>m.Usuario.Nombre, new { @class = "form-control" })
+                     @Html.TextBoxFor(m=>m.Nombre, new { @class = "form-control" })
                 </div>
             </div>
             <div class="row mt-4">
@@ -28,7 +28,7 @@
                     Apellido:
                 </div>
                 <div class="col-md-7">
-                     @Html.TextBoxFor(m=>m.Usuario.Apellido, new { @class = "form-control" })
+                     @Html.TextBoxFor(m=>m.Apellido, new { @class = "form-control" })
                 </div>
             </div>
             <div class="row mt-4">
@@ -60,7 +60,7 @@
                 </div>
                 <div class="col-md-7">
                     <label class="switch">        
-                     @Html.TextBoxFor(m=>m.Menu.Nombre , new { @class = "form-control form-control-sm col-4" , @type = "checkbox", @id ="pass" })     
+                     @Html.TextBoxFor(m=>m.Nombre , new { @class = "form-control form-control-sm col-4" , @type = "checkbox", @id ="pass" })     
                       <span class="slider round"></span>
                     </label>
                 </div>
@@ -72,7 +72,7 @@
                 <div class="col-md-7">
                     <label class="switch">
                       <input type="checkbox" name="" id="pass" class="form-control form-control-sm col-4" placeholder="" aria-describedby="helpId">
-                       @Html.TextBoxFor(m=>m.Menu.Nombre, new { @class = "form-control form-control-sm col-4" , @type = "checkbox", @id ="pass" })  
+                       @Html.TextBoxFor(m=>m.Nombre, new { @class = "form-control form-control-sm col-4" , @type = "checkbox", @id ="pass" })  
                       <span class="slider round"></span>
                     </label>
                 </div>

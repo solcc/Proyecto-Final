@@ -11,7 +11,12 @@ namespace Proyecto_Final.Controllers
 {
     public class HomeController : Controller
     {
-        
+         private readonly Context _context;
+        public HomeController(Context context)
+        {
+            this._context = context;
+
+        }
         public IActionResult Inicio()
         {
             return View();
@@ -34,21 +39,20 @@ namespace Proyecto_Final.Controllers
         [HttpPost]
         public ActionResult ProcesarContacto(Contacto contacto)
         {
-            TempData["contacto"] = contacto;
-            
             if (ModelState.IsValid)
             {
+                _context.Add(contacto);
+                _context.SaveChanges();
+
                 return RedirectToAction("Confirmacion");
             }
-            return RedirectToAction("Contacto",contacto);
+
+            return View(contacto);
         }
         public ActionResult Confirmacion()
         {
             Contacto contacto = TempData["contacto"] as Contacto;
-            if (contacto==null)
-            {
-                return RedirectToAction("Contacto");
-            }
+           
             ViewData["Contacto"] = contacto;
             return View();
         }

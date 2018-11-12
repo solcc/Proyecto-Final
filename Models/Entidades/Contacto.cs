@@ -5,6 +5,9 @@ namespace Proyecto_Final.Models.Entidades
     public class Contacto
     {
         [Required]
+        [Key]
+        public int idContacto { get; set; }
+        [Required]
         public string Nombre { get; set; }
         [Required]
         public string Correo { get; set; }
