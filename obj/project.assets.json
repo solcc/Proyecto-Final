@@ -11574,23 +11574,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Milagros\\.nuget\\packages\\": {},
+    "C:\\Users\\alumno.CIIS\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\USIL\\CICLO IV\\PROGRAMACIÓN MULTIPLATAFORMA\\Proyecto final\\Proyecto-Final-1\\Proyecto-Final.csproj",
+      "projectUniqueName": "c:\\Users\\alumno.CIIS\\Desktop\\Prog. Multiplataforma\\Proyecto-Final\\Proyecto-Final.csproj",
       "projectName": "Proyecto-Final",
-      "projectPath": "E:\\USIL\\CICLO IV\\PROGRAMACIÓN MULTIPLATAFORMA\\Proyecto final\\Proyecto-Final-1\\Proyecto-Final.csproj",
-      "packagesPath": "C:\\Users\\Milagros\\.nuget\\packages\\",
-      "outputPath": "E:\\USIL\\CICLO IV\\PROGRAMACIÓN MULTIPLATAFORMA\\Proyecto final\\Proyecto-Final-1\\obj\\",
+      "projectPath": "c:\\Users\\alumno.CIIS\\Desktop\\Prog. Multiplataforma\\Proyecto-Final\\Proyecto-Final.csproj",
+      "packagesPath": "C:\\Users\\alumno.CIIS\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\alumno.CIIS\\Desktop\\Prog. Multiplataforma\\Proyecto-Final\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Milagros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alumno.CIIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

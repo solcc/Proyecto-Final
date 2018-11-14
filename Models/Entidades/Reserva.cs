@@ -14,9 +14,6 @@ namespace Proyecto_Final.Models.Entidades
         public DateTime Hora { get; set; }
          public int numPersonas { get; set; }
 
-        public Usuario Usuario { get; set; }
-        public int? idUsuario { get; set; }
-
 
     }
 }
