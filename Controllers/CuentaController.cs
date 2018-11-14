@@ -31,7 +31,7 @@ namespace Proyecto_Final.Controllers
             &&u.Password==sesion.Password);
                 if(user!=null){
                     TempData["validacion"] = "valida";
-                    return RedirectToAction("Inicio", "Home");
+                    return RedirectToAction("Panel", "Sesion");
                 }
                 ModelState.AddModelError("error","Error en los datos");
             }
