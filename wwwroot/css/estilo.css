@@ -397,3 +397,29 @@ input:checked + .slider:before{
     text-shadow: 2px 2px white;
 }
 
+.panel{
+    color: white;
+}
+
+.perfil{
+    height: 600px;
+    border-left: 2px solid #C38511;
+    border-right: 2px solid #C38511;
+    background-color:#714608;
+    border-radius: 3%;
+}
+
+.perfil-imagen{
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.panel-reservas{
+    border-left: 2px solid #C38511;
+    border-right: 2px solid #C38511;
+    height: 600px;
+    background-color:#714608;
+    border-radius: 3%;
+}
