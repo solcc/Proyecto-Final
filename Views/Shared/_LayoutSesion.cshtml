@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/estilo.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="~/images/logo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Acme|Pacifico|Signika" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+ 
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <a class="ml-2 navbar-brand" href="~/Home/Inicio">
+            <img width="100" height="100"src="~/css/logo.png">
+            <span class=" ml-4 display-5 align-middle" >Maribel SAC</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto text-center">
+          </div>
+          <div class="row text-center">
+            <div class="col-12">
+                <a href="~/Cuenta/Login"><button class="btn btn-iniciars">Cerrar Sesión</button></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container">
+        @RenderBody()
+        
+    </div>
+    <footer class="page-footer pt-4 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Información</h5>
+                    <ul>
+                        <li>- Reservas</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Atención al Cliente</h5>
+                    <ul>
+                        <li>- Contacto</li>
+                    </ul>
+                </div>
+               
+                <div class="col-md-3">
+                    <h5>Síguenos</h5>
+                    <div class="social_block">
+                        <ul class="lista-siguenos">
+                            <li class="facebook"><a href="" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                            <li class="twitter"><a href="" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                            <li class="twitter"><a href="" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                            <li class="youtube"><a href="" target="_blank"><i class="fab fa-youtube-square fa-2x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+
+
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
