@@ -206,3 +206,42 @@ E:\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.Views.pdb
 E:\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.dll
 E:\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.pdb
 E:\Proyecto-Final\obj\Debug\netcoreapp2.1\Proyecto-Final.csproj.CopyComplete
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\bin\Debug\netcoreapp2.1\Proyecto-Final.deps.json
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\bin\Debug\netcoreapp2.1\Proyecto-Final.runtimeconfig.json
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\bin\Debug\netcoreapp2.1\Proyecto-Final.runtimeconfig.dev.json
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\bin\Debug\netcoreapp2.1\Proyecto-Final.dll
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\bin\Debug\netcoreapp2.1\Proyecto-Final.pdb
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\bin\Debug\netcoreapp2.1\Proyecto-Final.Views.dll
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\bin\Debug\netcoreapp2.1\Proyecto-Final.Views.pdb
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Proyecto-Final.csprojAssemblyReference.cache
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Proyecto-Final.csproj.CoreCompileInputs.cache
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Proyecto-Final.RazorAssemblyInfo.cache
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Proyecto-Final.RazorAssemblyInfo.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Proyecto-Final.AssemblyInfoInputs.cache
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Proyecto-Final.AssemblyInfo.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Proyecto-Final.TagHelpers.input.cache
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Proyecto-Final.TagHelpers.output.cache
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Proyecto-Final.RazorCoreGenerate.cache
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\Cuenta\Login.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\Cuenta\Registro.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\Cuenta\RegistroConfirmacion.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Confirmacion.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contacto.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Inicio.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Nosotros.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\Reservas\Reserva.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\Reservas\ReservaConfirmacion.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\Sesion\Panel.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutSesion.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Proyecto-Final.RazorTargetAssemblyInfo.cache
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Proyecto-Final.RazorTargetAssemblyInfo.cs
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Proyecto-Final.Views.pdb
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Proyecto-Final.dll
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Proyecto-Final.pdb
+E:\USIL\CICLO IV\PROGRAMACIÓN MULTIPLATAFORMA\Proyecto final\Proyecto-Final-1\obj\Debug\netcoreapp2.1\Proyecto-Final.csproj.CopyComplete

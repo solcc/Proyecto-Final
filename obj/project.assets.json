@@ -11580,11 +11580,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\USIL\\CICLO IV\\PROGRAMACIÓN MULTIPLATAFORMA\\Proyecto final\\Proyecto-Final\\Proyecto-Final.csproj",
+      "projectUniqueName": "E:\\USIL\\CICLO IV\\PROGRAMACIÓN MULTIPLATAFORMA\\Proyecto final\\Proyecto-Final-1\\Proyecto-Final.csproj",
       "projectName": "Proyecto-Final",
-      "projectPath": "e:\\USIL\\CICLO IV\\PROGRAMACIÓN MULTIPLATAFORMA\\Proyecto final\\Proyecto-Final\\Proyecto-Final.csproj",
+      "projectPath": "E:\\USIL\\CICLO IV\\PROGRAMACIÓN MULTIPLATAFORMA\\Proyecto final\\Proyecto-Final-1\\Proyecto-Final.csproj",
       "packagesPath": "C:\\Users\\Milagros\\.nuget\\packages\\",
-      "outputPath": "e:\\USIL\\CICLO IV\\PROGRAMACIÓN MULTIPLATAFORMA\\Proyecto final\\Proyecto-Final\\obj\\",
+      "outputPath": "E:\\USIL\\CICLO IV\\PROGRAMACIÓN MULTIPLATAFORMA\\Proyecto final\\Proyecto-Final-1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

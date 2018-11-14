@@ -45,8 +45,6 @@ namespace Proyecto_Final.Controllers
                 _context.Add(contacto);
                 _context.SaveChanges();
 
-                TempData["contacto"] = JsonConvert.SerializeObject(contacto);
-
                 return RedirectToAction("Confirmacion");
             }
 
@@ -54,10 +52,6 @@ namespace Proyecto_Final.Controllers
         }
         public ActionResult Confirmacion()
         {
-            var x = TempData["contacto"].ToString();
-            Contacto contacto = JsonConvert.DeserializeObject(x) as Contacto;
-           
-            ViewData["Contacto"] = contacto;
             return View();
         }
         
